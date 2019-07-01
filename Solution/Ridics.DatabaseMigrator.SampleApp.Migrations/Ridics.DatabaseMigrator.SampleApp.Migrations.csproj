@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\MyTesting\SQLite\CreateEmptyDatabase.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Scripts\MyTesting\SQLite\CreateEmptyDatabase.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentMigrator" Version="3.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ridics.DatabaseMigrator.QueryBuilder\Ridics.DatabaseMigrator.QueryBuilder.csproj" />
+    <ProjectReference Include="..\Ridics.DatabaseMigrator.Shared\Ridics.DatabaseMigrator.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
