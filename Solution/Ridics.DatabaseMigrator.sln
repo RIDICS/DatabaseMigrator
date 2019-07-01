@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ridics.DatabaseMigrator.SampleApp", "Ridics.DatabaseMigrator.SampleApp\Ridics.DatabaseMigrator.SampleApp.csproj", "{4D4F0526-976F-4D4A-A02C-1FDAA14AC926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ridics.DatabaseMigrator.Core", "Ridics.DatabaseMigrator.Core\Ridics.DatabaseMigrator.Core.csproj", "{19066DB5-6E6C-4B20-A071-B935FBE94E5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ridics.DatabaseMigrator.QueryBuilder", "Ridics.DatabaseMigrator.QueryBuilder\Ridics.DatabaseMigrator.QueryBuilder.csproj", "{2BAD7B23-9092-42D4-9BDC-40B65F005756}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ridics.DatabaseMigrator.Shared", "Ridics.DatabaseMigrator.Shared\Ridics.DatabaseMigrator.Shared.csproj", "{F20CE273-DF4C-4438-9124-FA18594D3A14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ridics.DatabaseMigrator.Test", "Ridics.DatabaseMigrator.Test\Ridics.DatabaseMigrator.Test.csproj", "{85F10F78-22F7-40EB-AD39-549650EA970D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D4F0526-976F-4D4A-A02C-1FDAA14AC926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4F0526-976F-4D4A-A02C-1FDAA14AC926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4F0526-976F-4D4A-A02C-1FDAA14AC926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4F0526-976F-4D4A-A02C-1FDAA14AC926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19066DB5-6E6C-4B20-A071-B935FBE94E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19066DB5-6E6C-4B20-A071-B935FBE94E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19066DB5-6E6C-4B20-A071-B935FBE94E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19066DB5-6E6C-4B20-A071-B935FBE94E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAD7B23-9092-42D4-9BDC-40B65F005756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAD7B23-9092-42D4-9BDC-40B65F005756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAD7B23-9092-42D4-9BDC-40B65F005756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAD7B23-9092-42D4-9BDC-40B65F005756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20CE273-DF4C-4438-9124-FA18594D3A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20CE273-DF4C-4438-9124-FA18594D3A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20CE273-DF4C-4438-9124-FA18594D3A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20CE273-DF4C-4438-9124-FA18594D3A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F10F78-22F7-40EB-AD39-549650EA970D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F10F78-22F7-40EB-AD39-549650EA970D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F10F78-22F7-40EB-AD39-549650EA970D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F10F78-22F7-40EB-AD39-549650EA970D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {353EBB6B-B13D-44DC-8DD7-2E4BB8EFEE0E}
+	EndGlobalSection
+EndGlobal
